@@ -2,6 +2,7 @@ import React from 'react';
 import SectionHeader from '../SectionHeader/SectionHeader'
 import PromoTileWrapper from '../PromoTileWrapper/PromoTileWrapper';
 import FilterableList from '../FilterableList/FilterableList';
+import love from '../love.jpg';
 
 class LandingPage extends React.Component {
 
@@ -21,6 +22,7 @@ class LandingPage extends React.Component {
         return (
             <div className="LandingPageContainer">
                 <SectionHeader heading="Hi Abi... I love u Babe " />
+                <image src={love} alt="love u" />
                 <div>
                     <FilterableList />
                     <PromoTileWrapper />
