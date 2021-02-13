@@ -20,7 +20,7 @@ class LandingPage extends React.Component {
     render() {
         return (
             <div className="LandingPageContainer">
-                <SectionHeader heading="Section Header" />
+                <SectionHeader heading="My Section Header" />
                 <div>
                     <FilterableList />
                     <PromoTileWrapper />
