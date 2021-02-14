@@ -3,11 +3,7 @@ import './style.css';
 
 function Button(props) {
   return (
-    <div className="buttonContainer">
-      <header className="">
-        {props.heading}
-      </header>
-    </div>
+    <div>Test</div>
   );
 }
 

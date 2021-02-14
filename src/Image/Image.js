@@ -2,11 +2,11 @@ import React from 'react';
 import './style.css';
 
 function Image(props) {
+  const {img, alt} = props;
+
   return (
     <div className="imageContainer">
-      <header className="">
-        {props.heading}
-      </header>
+      <img src={img} alt={alt} />
     </div>
   );
 }

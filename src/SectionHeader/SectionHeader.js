@@ -5,7 +5,7 @@ function SectionHeader(props) {
   return (
     <div className="sectionHeaderContainer">
       <header className="">
-        {props.heading}
+        {props.title}
       </header>
     </div>
   );
