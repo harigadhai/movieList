@@ -17,7 +17,7 @@ class LandingPage extends React.Component {
 
 
     componentDidMount() {
-        fetch('http://api.tvmaze.com/shows',)
+        fetch('https://api.tvmaze.com/shows',)
             .then(response => response.json())
             .then(result => {
                 var options = [];
